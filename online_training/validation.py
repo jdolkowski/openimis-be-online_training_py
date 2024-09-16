@@ -1,0 +1,1 @@
+# implement BaseModelValidation for EncodedMessage
