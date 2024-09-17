@@ -12,4 +12,5 @@ class CreateEncryptedMessageMutation(BaseHistoryModelCreateMutationMixin, BaseMu
     _mutation_class = "CreateEncryptedMessageMutation"
     _mutation_module = "online_training"
     _model=EncryptedMessageGQLType
-    # should already work because of BaseHistoryModelCreateMutationMixin but try to think on how to implement a base service.create for creating an object
+    # should already work because of BaseHistoryModelCreateMutationMixin but it will save a plain text
+    # think on how to modify it so it will save encrypted messages
